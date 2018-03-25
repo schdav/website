@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "1.0.0",
-  "description": "private website of schdav",
+  "description": "personal website of schdav",
   "main": "index.html",
   "scripts": {
     "all": "npm run prettier && npm run lint-js && npm run lint-php && npm run lint-scss && npm run scss && npm run mini-css && npm run mini-js && npm run svg",
