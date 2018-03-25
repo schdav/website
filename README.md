@@ -1,8 +1,8 @@
 # website
-![GitHub top language](https://img.shields.io/github/languages/top/schdav/blogy.svg)
-![license](https://img.shields.io/github/license/schdav/blogy.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/schdav/blogy.svg)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/schdav/blogy.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/schdav/website.svg)
+![license](https://img.shields.io/github/license/schdav/website.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/schdav/website.svg)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/schdav/website.svg)
 ## Setup
 Npm is required.
 ### Installation
