@@ -23,7 +23,7 @@
         <script>
           document.write(moment().year());
         </script>
-        David Schneider &bull; <a id="mail-address" href="#"></a><br />
+        David Schneider &middot; <a id="mail-address" href="#"></a><br />
         Schriftart: <a href="https://firstsiteguide.com/">Blogger Sans</a>
       </div>
       <div class="column">

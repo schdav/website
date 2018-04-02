@@ -12,14 +12,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/theme-default.min.css" />
   <link rel="stylesheet" href="min/default.min.css">
   <meta charset="utf-8">
-  <meta name="description" content="private Webseite von David Schneider &bull; Softwareentwickler in agilen Prozessen">
+  <meta name="description" content="private Webseite von David Schneider &middot; Softwareentwickler in agilen Prozessen">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
-  <title>David Schneider &bull; Softwareentwickler | SCHDAV</title>
+  <title>David Schneider &middot; Softwareentwickler | SCHDAV</title>
 </head>
 
 <body>
