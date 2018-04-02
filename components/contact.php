@@ -30,6 +30,9 @@
               <input type="reset" value="Löschen" class="button">
             </div>
           </div>
+          <div class="is-size-6 has-text-weight-bold">
+            * Pflichtfeld
+          </div>
         </form>
       </div>
     </div>
