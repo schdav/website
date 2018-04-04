@@ -1,7 +1,7 @@
 <nav class="navbar is-fixed-top is-primary">
   <div class="navbar-brand">
     <span class="navbar-item">
-      <img src="images/logo.png" alt="Logo">
+      <img src="images/logo.svg" alt="Logo">
     </span>
     <div class="navbar-burger" data-target="navbarMenu">
       <span></span>
