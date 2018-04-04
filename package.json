@@ -12,7 +12,7 @@
     "mini-js": "mkdirp ./min && uglifyjs 'js/**' -c -m -o min/bundle.min.js",
     "prettier": "prettier --single-quote --write 'js/**' 'scss/**'",
     "scss": "mkdirp ./css && node-sass scss -o css",
-    "svg": "svgo --pretty *.svg"
+    "svg": "svgo --pretty *.svg images/*.svg"
   },
   "repository": {
     "type": "git",
