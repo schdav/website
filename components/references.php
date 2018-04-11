@@ -63,7 +63,7 @@
           </div>
         </div>
         <p>
-          Eine Auswahl von privaten Projekten ist in meinem <a class="underline" href="https://github.com/schdav">GitHub-Profil</a> zu finden.
+          Eine Auswahl von privaten Projekten ist in meinem <a class="underline" href="https://github.com/schdav">GitHub-Profil</a> oder auf <a class="underline" href="https://play.google.com/store/apps/developer?id=SCHDAV%20Development">Google Play</a> zu finden.
         </p>
       </div>
     </div>

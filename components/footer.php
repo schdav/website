@@ -5,6 +5,9 @@
         <a class="icon hvr-float" href="https://github.com/schdav">
           <i class="im im-github"></i>
         </a>
+        <a class="icon hvr-float" href="https://play.google.com/store/apps/developer?id=SCHDAV%20Development">
+          <i class="im im-google-play"></i>
+        </a>
         <a class="icon hvr-float" href="https://www.instagram.com/schdav_online/">
           <i class="im im-instagram"></i>
         </a>
