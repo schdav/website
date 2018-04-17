@@ -1,5 +1,6 @@
 $(function() {
-  $('a[href^="#"]').click(function() {
+  $('a[href^="#"]').click(function(event) {
+    event.preventDefault();
     var $padding = $('body').css('padding-top');
     var $href = this.href.split('#');
     var $top = $('#' + $href[1]).position().top;
