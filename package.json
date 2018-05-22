@@ -4,7 +4,8 @@
   "description": "personal website of schdav",
   "main": "index.html",
   "scripts": {
-    "all": "npm run prettier && npm run lint-js && npm run lint-php && npm run lint-scss && npm run scss && npm run mini-css && npm run mini-js && npm run svg",
+    "all": "npm run html && npm run prettier && npm run lint-js && npm run lint-php && npm run lint-scss && npm run scss && npm run mini-css && npm run mini-js && npm run svg",
+    "html": "html-minifier --collapse-whitespace index-original.php -o index.php && mkdirp ./components && html-minifier --collapse-whitespace --input-dir components-original/ --output-dir components/",
     "lint-js": "eslint -c configs/.eslintrc.json 'js/**'",
     "lint-php": "phplint 'php/**'",
     "lint-scss": "sass-lint -c configs/.sass-lint.yml 'scss/**' -q",
@@ -26,6 +27,7 @@
     "clean-css-cli": "^4.1.11",
     "eslint": "^4.19.1",
     "hover.css": "^2.3.1",
+    "html-minifier": "^3.5.16",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.9.0",
     "npm": "^6.0.1",

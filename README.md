@@ -15,6 +15,7 @@ Npm is required.
 * [clean-css](https://github.com/jakubpawlowicz/clean-css-cli)
 * [ESLint](https://github.com/eslint/eslint)
 * [Hover.css](https://github.com/IanLunn/Hover/)
+* [HTMLMinifier](https://github.com/kangax/html-minifier)
 * [mkdirp](https://github.com/substack/node-mkdirp)
 * [node-sass](https://github.com/sass/node-sass)
 * [php-lint](https://github.com/wayneashleyberry/phplint)
