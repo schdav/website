@@ -24,7 +24,7 @@
       <div class="column">
         &copy;
         <script>
-          document.write(moment().year());
+          document.write(" " + moment().year() + " ");
         </script>
         David Schneider &middot; <a id="mail-address" href="#"></a><br />
         Schriftart: <a href="https://firstsiteguide.com/">Blogger Sans</a>
