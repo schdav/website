@@ -18,6 +18,7 @@ Npm is required.
 * [HTMLMinifier](https://github.com/kangax/html-minifier)
 * [mkdirp](https://github.com/substack/node-mkdirp)
 * [node-sass](https://github.com/sass/node-sass)
+* [normalize.css](https://github.com/necolas/normalize.css)
 * [php-lint](https://github.com/wayneashleyberry/phplint)
 * [Prettier](https://github.com/prettier/prettier)
 * [Sass Lint](https://github.com/sasstools/sass-lint)
