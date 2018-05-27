@@ -80,4 +80,16 @@ footer .icon {
 .counter {
   display: none;
 }
+
+.error-page {
+  padding: 0;
+
+  & h1 {
+    color: #fff;
+  }
+
+  & .underline {
+    border-bottom: 2px solid #fff;
+  }
+}
 @import '../node_modules/hover.css/scss/hover';

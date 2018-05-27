@@ -5,14 +5,14 @@
   "main": "index.html",
   "scripts": {
     "all": "npm run html && npm run prettier && npm run lint-js && npm run lint-php && npm run lint-scss && npm run scss && npm run mini-css && npm run mini-js && npm run svg",
-    "html": "html-minifier --collapse-whitespace index-original.php -o index.php && mkdirp ./components && html-minifier --collapse-whitespace --input-dir components-original/ --output-dir components/",
+    "html": "html-minifier --collapse-whitespace index-original.php -o index.php && html-minifier --collapse-whitespace 404-original.php -o 404.php && mkdirp components/ && html-minifier --collapse-whitespace --input-dir components-original/ --output-dir components/",
     "lint-js": "eslint -c configs/.eslintrc.json 'js/**'",
     "lint-php": "phplint 'php/**'",
     "lint-scss": "sass-lint -c configs/.sass-lint.yml 'scss/**' -q",
-    "mini-css": "mkdirp ./min && cleancss -o min/default.min.css 'css/**'",
-    "mini-js": "mkdirp ./min && uglifyjs 'js/**' -c -m -o min/bundle.min.js",
+    "mini-css": "mkdirp min/ && cleancss -o min/default.min.css 'css/**'",
+    "mini-js": "mkdirp min/ && uglifyjs 'js/**' -c -m -o min/bundle.min.js",
     "prettier": "prettier --single-quote --write 'js/**' 'scss/**'",
-    "scss": "mkdirp ./css && node-sass scss -o css",
+    "scss": "mkdirp css/ && node-sass scss/ -o css/",
     "svg": "svgo --pretty *.svg images/*.svg"
   },
   "repository": {
