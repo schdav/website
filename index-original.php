@@ -20,6 +20,7 @@
 </head>
 
 <body>
+  <noscript class="has-text-danger">Diese Webseite benötigt JavaScript, um ordnungsgemäß funktionieren zu können!</noscript>
   <?php include 'components/modals.php' ?>
   <div id="blur-content">
     <?php include 'components/navigation.php' ?>
