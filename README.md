@@ -25,7 +25,6 @@ Npm is required.
 * [SVGO](https://github.com/svg/svgo)
 * [UglifyJS](https://github.com/mishoo/UglifyJS2)
 ### Others
-* [Brick](https://brick.im/)
 * [iconmonstr](https://iconmonstr.com/)
 * [jQuery Form Validator](http://www.formvalidator.net/)
 * [jQuery](https://jquery.com/)
