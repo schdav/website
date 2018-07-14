@@ -13,10 +13,57 @@ $card-header-color: $grey-dark;
 $card-header-weight: 400;
 $content-heading-weight: $weight-normal;
 @import '../node_modules/bulma/bulma';
+@mixin fade {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
 
 body {
   background: linear-gradient($white, $white-ter);
   padding-top: 3.25rem;
+}
+
+a {
+  color: $text;
+
+  &:hover {
+    color: $text;
+  }
+
+  &.navbar-item {
+    @include fade;
+
+    &:hover {
+      @include fade;
+      color: $text;
+    }
+  }
+}
+
+footer {
+  color: $white-ter;
+
+  a {
+    color: $white-ter;
+
+    &:hover {
+      color: $white-ter;
+    }
+  }
+
+  .icon {
+    margin: 0 10px;
+  }
+}
+
+#close-notification {
+  margin-top: 20px;
+}
+
+#notification-icon i {
+  font-size: 2.5rem;
 }
 
 .blur {
@@ -24,30 +71,15 @@ body {
   filter: blur(2px);
 }
 
-.button,
-.content h1,
-.input,
-.label,
-a,
-a.navbar-item:hover,
-a:hover {
+.button {
+  @include fade;
   color: $text;
-}
 
-.button,
-.button:hover,
-a.navbar-item,
-a.navbar-item:hover {
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  transition: all 1s;
+  &:hover {
+    @include fade;
+  }
 }
-
-.underline {
-  border-bottom: 2px solid $turquoise;
-}
-
+/* START card */
 .card {
   height: 100%;
 }
@@ -59,23 +91,11 @@ a.navbar-item:hover {
 .card-content {
   padding: 3rem 1.5rem;
 }
-
-#notification-icon i {
-  font-size: 2.5rem;
-}
-
-#close-notification {
-  margin-top: 20px;
-}
-
-footer,
-footer a,
-footer a:hover {
-  color: $white-ter;
-}
-
-footer .icon {
-  margin: 0 10px;
+/* END card */
+.content h1,
+.input,
+.label {
+  color: $text;
 }
 
 .counter {
@@ -85,12 +105,16 @@ footer .icon {
 .error-page {
   padding: 0;
 
-  & h1 {
+  h1 {
     color: #fff;
   }
 
-  & .underline {
+  .underline {
     border-bottom: 2px solid #fff;
   }
+}
+
+.underline {
+  border-bottom: 2px solid $turquoise;
 }
 @import '../node_modules/hover.css/scss/hover';
