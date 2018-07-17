@@ -117,4 +117,8 @@ footer {
 .underline {
   border-bottom: 2px solid $turquoise;
 }
+/* formvalidator fix */
+input.valid:hover {
+  border-color: #468847;
+}
 @import '../node_modules/hover.css/scss/hover';
