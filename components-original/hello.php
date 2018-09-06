@@ -20,7 +20,8 @@
         Agile Entwicklung, Clean Code, App-Entwicklung, Online Marketing, Webdesign, UX
       </p>
     </div>
-    <div class="content has-text-centered">
+    <div class="buttons is-centered">
+      <a class="button is-outlined" href="#contact">Direkt zum Kontaktformular</a>
       <a class="button is-primary is-outlined" href="https://xing.to/schdav">Weitere Informationen (XING-Profil)</a>
     </div>
   </div>
