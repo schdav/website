@@ -3,5 +3,4 @@ $(function() {
   var $suffix = 'schdav.de';
 
   $('#mail-address').attr('href', 'mailto:' + $prefix + '@' + $suffix);
-  $('#mail-address').text($prefix + '@' + $suffix);
 });
