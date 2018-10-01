@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^schdav\.de$ [NC]
-RewriteCond %{SERVER_PORT} !^443$
+RewriteCond %{HTTPS} !on [OR]
+RewriteCond %{HTTP_HOST} !^www\.schdav\.de$ [NC]
 RewriteRule ^(.*)$ https://www.schdav.de/$1 [R=301,L]
 
 ErrorDocument 404 /404.php
