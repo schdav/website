@@ -13,7 +13,7 @@
       </p>
       <h2 class="is-size-4">Kenntnisse:</h2>
       <p>
-        Webentwicklung, C#, Python, Datenbanken, TDD, Unix, ITSM, Scrum
+        Webentwicklung, C#, Python, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum, ...
       </p>
       <h2 class="is-size-4">Interessen:</h2>
       <p>
