@@ -11,6 +11,7 @@ Npm is required.
 `npm run all`
 ## Dependencies
 ### Npm packages
+* [Balloon.css](https://github.com/kazzkiq/balloon.css)
 * [Bulma](https://github.com/jgthms/bulma/)
 * [clean-css](https://github.com/jakubpawlowicz/clean-css-cli)
 * [ESLint](https://github.com/eslint/eslint)

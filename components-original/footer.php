@@ -2,16 +2,16 @@
   <div class="container">
     <div class="columns has-text-centered">
       <div class="column">
-        <a title="E-Mail" id="mail-address" class="icon hvr-float" href="#">
+        <a id="mail-address" class="icon hvr-float" href="#" data-balloon="E-Mail" data-balloon-pos="down">
           <i class="im im-mail"></i>
         </a>
-        <a title="GitHub" class="icon hvr-float" href="https://github.com/schdav">
+        <a class="icon hvr-float" href="https://github.com/schdav" data-balloon="GitHub" data-balloon-pos="down">
           <i class="im im-github"></i>
         </a>
-        <a title="Google Play" class="icon hvr-float" href="https://play.google.com/store/apps/developer?id=SCHDAV%20Development">
+        <a class="icon hvr-float" href="https://play.google.com/store/apps/developer?id=SCHDAV%20Development" data-balloon="Google Play" data-balloon-pos="down">
           <i class="im im-google-play"></i>
         </a>
-        <a title="XING" class="icon hvr-float" href="https://xing.to/schdav">
+        <a class="icon hvr-float" href="https://xing.to/schdav" data-balloon="XING" data-balloon-pos="down">
           <i class="im im-xing"></i>
         </a>
       </div>

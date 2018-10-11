@@ -79,7 +79,7 @@ footer {
     @include fade;
   }
 }
-/* START card */
+
 .card {
   height: 100%;
 }
@@ -91,7 +91,7 @@ footer {
 .card-content {
   padding: 3rem 1.5rem;
 }
-/* END card */
+
 .content h1,
 .input,
 .label {
@@ -122,3 +122,29 @@ input.valid:hover {
   border-color: #468847;
 }
 @import '../node_modules/hover.css/scss/hover';
+@import '../node_modules/balloon-css/balloon.min';
+
+/* custom balloons */
+[data-balloon] {
+  &::after {
+    background: $turquoise;
+    color: $white-ter;
+    font-family: $family-sans-serif !important;
+  }
+
+  &[data-balloon-pos='down'] {
+    &::after {
+      margin-top: 22px;
+    }
+
+    &::before {
+      background: none;
+      border-bottom: 6px solid $turquoise;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      height: 0;
+      margin-top: 16px;
+      width: 0;
+    }
+  }
+}
