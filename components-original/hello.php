@@ -11,12 +11,10 @@
         Nürnberg.<br />
         Als Softwareentwickler erstelle ich in agilen Prozessen Webseiten und Webanwendungen.
       </p>
-      <h2 class="is-size-4">Kenntnisse:</h2>
-      <p>
+      <p>Kenntnisse:<br />
         Webentwicklung, C#, Python, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum, ...
       </p>
-      <h2 class="is-size-4">Interessen:</h2>
-      <p>
+      <p>Interessen:<br />
         Agile Entwicklung, Clean Code, App-Entwicklung, Online Marketing, Webdesign, UX
       </p>
     </div>

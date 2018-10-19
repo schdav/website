@@ -1,7 +1,7 @@
 <section id="references" class="section is-medium">
   <div class="container">
     <div class="content is-size-4">
-      <h1>Referenzen</h1>
+      <h2 class="title is-1">Referenzen</h2>
       <div class="columns">
         <div class="column">
           <div class="card">
