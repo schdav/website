@@ -9,10 +9,10 @@
         </script>
         Jahre alt und arbeite zurzeit bei <a class="underline" href="https://www.paessler.com/">Paessler AG</a> in
         Nürnberg.<br />
-        Als Softwareentwickler erstelle ich in agilen Prozessen Webseiten und Webanwendungen.
+        Als Software Engineer entwickle ich in agilen Prozessen Webseiten und Webanwendungen.
       </p>
       <p>Kenntnisse:<br />
-        Webentwicklung, C#, Python, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum, ...
+        Webentwicklung, C#, Python, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum und mehr
       </p>
       <p>Interessen:<br />
         Agile Entwicklung, Clean Code, App-Entwicklung, Online Marketing, Webdesign, UX
