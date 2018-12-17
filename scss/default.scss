@@ -1,7 +1,8 @@
 @import '../node_modules/normalize.css/normalize';
 @import '../node_modules/bulma/sass/utilities/initial-variables';
 @import '../node_modules/bulma/sass/utilities/functions';
-@import './_fonts';
+@import './fonts';
+
 $family-sans-serif: 'Blogger Sans', sans-serif;
 $grey-dark: #393e46;
 $grey-darker: #222831;
@@ -12,7 +13,9 @@ $modal-content-width: 500px;
 $card-header-color: $grey-dark;
 $card-header-weight: 400;
 $content-heading-weight: $weight-normal;
+
 @import '../node_modules/bulma/bulma';
+
 @mixin fade {
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -117,14 +120,16 @@ footer {
 .underline {
   border-bottom: 2px solid $turquoise;
 }
-/* formvalidator fix */
+
+// formvalidator fix
 input.valid:hover {
   border-color: #468847;
 }
+
 @import '../node_modules/hover.css/scss/hover';
 @import '../node_modules/balloon-css/balloon.min';
 
-/* custom balloons */
+// custom balloons
 [data-balloon] {
   &::after {
     background: $turquoise;
