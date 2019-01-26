@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer has-text-light">
   <div class="container">
     <div class="columns has-text-centered">
       <div class="column">

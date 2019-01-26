@@ -1,7 +1,7 @@
 <section id="hello" class="section is-medium">
   <div class="container">
+    <h1 class="title is-1">Hallo</h1>
     <div class="content is-size-4">
-      <h1>Hallo</h1>
       <p>
         Ich heiße David Schneider, bin
         <script>

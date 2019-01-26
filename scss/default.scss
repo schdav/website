@@ -4,15 +4,15 @@
 @import './fonts';
 
 $family-sans-serif: 'Blogger Sans', sans-serif;
+
 $grey-dark: #393e46;
-$grey-darker: #222831;
+$grey-darker: $grey-dark;
 $turquoise: #00adb5;
 $white-ter: #eee;
-$footer-background-color: $grey-darker;
+$custom-footer: #222831;
+
+$footer-background-color: $custom-footer;
 $modal-content-width: 500px;
-$card-header-color: $grey-dark;
-$card-header-weight: 400;
-$content-heading-weight: $weight-normal;
 
 @import '../node_modules/bulma/bulma';
 
@@ -28,39 +28,47 @@ body {
   padding-top: 3.25rem;
 }
 
+.title,
+.card-header-title {
+  font-weight: 400;
+}
+
 a {
-  color: $text;
+  color: inherit;
 
   &:hover {
-    color: $text;
+    color: inherit;
   }
 
   &.navbar-item {
     @include fade;
 
     &:hover {
-      @include fade;
       color: $text;
+      @include fade;
     }
   }
 }
 
-footer {
-  color: $white-ter;
+.underline {
+  border-bottom: 2px solid $turquoise;
+}
 
-  a {
-    color: $white-ter;
+.button {
+  @include fade;
 
-    &:hover {
-      color: $white-ter;
-    }
+  &:hover {
+    @include fade;
   }
+}
 
+footer {
   .icon {
     margin: 0 10px;
   }
 }
 
+// notifcations
 #close-notification {
   margin-top: 20px;
 }
@@ -74,15 +82,7 @@ footer {
   filter: blur(2px);
 }
 
-.button {
-  @include fade;
-  color: $text;
-
-  &:hover {
-    @include fade;
-  }
-}
-
+// cards
 .card {
   height: 100%;
 }
@@ -95,12 +95,6 @@ footer {
   padding: 3rem 1.5rem;
 }
 
-.content h1,
-.input,
-.label {
-  color: $text;
-}
-
 .counter {
   display: none;
 }
@@ -108,17 +102,9 @@ footer {
 .error-page {
   padding: 0;
 
-  h1 {
-    color: #fff;
-  }
-
   .underline {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid $white;
   }
-}
-
-.underline {
-  border-bottom: 2px solid $turquoise;
 }
 
 // formvalidator fix

@@ -1,7 +1,7 @@
 <section id="contact" class="section is-medium">
   <div class="container">
+    <h2 class="title is-1">Kontakt</h2>
     <div class="content is-size-4">
-      <h2 class="title is-1">Kontakt</h2>
       <form id="contact-form" novalidate>
         <div class="field">
           <label for="form-name" class="label">Name *</label>

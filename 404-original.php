@@ -19,13 +19,11 @@
 <body class="error-page">
   <section class="hero is-fullheight is-primary">
     <div class="hero-body">
-      <div class="container">
-        <div class="content is-size-4 has-text-centered">
-          <h1>Fehler 404</h1>
-          <p>
-            Seite nicht gefunden!
-            Zurück zu <a class="underline" href="https://www.schdav.de">www.schdav.de</a>
-          </p>
+      <div class="container has-text-centered">
+        <h1 class="title is-1">Fehler 404</h1>
+        <div class="content is-size-4">
+          Seite nicht gefunden!
+          Zurück zu <a class="underline" href="https://www.schdav.de">www.schdav.de</a>
         </div>
       </div>
     </div>
