@@ -3,7 +3,7 @@
     <div class="columns has-text-centered">
       <div class="column">
         <a id="mail-address" class="icon hvr-float" href="#" data-balloon="E-Mail" data-balloon-pos="down">
-          <i class="im im-mail"></i>
+          <i class="im im-paperplane"></i>
         </a>
         <a class="icon hvr-float" href="https://github.com/schdav" data-balloon="GitHub" data-balloon-pos="down">
           <i class="im im-github"></i>
