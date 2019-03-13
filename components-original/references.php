@@ -81,7 +81,25 @@
             </div>
           </div>
         </div>
-        <div class="column is-hidden-mobile"></div>
+        <div class="column">
+          <div class="card">
+            <header class="card-header">
+              <span class="card-header-icon">
+                <span class="icon">
+                  <i class="im im-certificate-o"></i>
+                </span>
+              </span>
+              <p class="card-header-title">
+                2019
+              </p>
+            </header>
+            <div class="card-content">
+              <div class="content has-text-centered">
+                iSAQB CPSA-F
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="column is-hidden-mobile"></div>
       </div>
       Eine Auswahl von privaten Projekten ist in meinem <a class="underline" href="https://github.com/schdav">GitHub-Profil</a>
