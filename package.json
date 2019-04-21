@@ -24,26 +24,26 @@
   "private": true,
   "dependencies": {
     "balloon-css": "^0.5.0",
-    "bulma": "^0.7.1",
-    "clean-css-cli": "^4.2.1",
-    "eslint": "^5.12.1",
+    "bulma": "^0.7.4",
+    "clean-css-cli": "^4.3.0",
+    "eslint": "^5.16.0",
     "hover.css": "^2.3.2",
-    "html-minifier": "^3.5.20",
+    "html-minifier": "^4.0.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.11.0",
-    "normalize.css": "^8.0.0",
+    "normalize.css": "^8.0.1",
     "npm": "^6.7.0",
     "phplint": "^2.0.1",
-    "prettier": "^1.16.1",
+    "prettier": "^1.17.0",
     "sass-lint": "^1.12.1",
-    "svgo": "^1.1.1",
-    "uglify-js": "^3.4.9"
+    "svgo": "^1.2.2",
+    "uglify-js": "^3.5.4"
   },
   "devDependencies": {
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-import": "^2.17.2",
     "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-promise": "^4.1.1",
     "eslint-plugin-standard": "^4.0.0"
   }
 }
