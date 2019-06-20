@@ -12,5 +12,7 @@ $(function() {
       },
       'slow'
     );
+
+    this.blur();
   });
 });
