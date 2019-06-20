@@ -25,11 +25,16 @@ $modal-content-width: 500px;
 
 body {
   background: linear-gradient($white, $white-ter);
-  padding-top: 3.25rem;
 }
 
 .container {
   max-width: 1000px;
+}
+
+#hello {
+  .container {
+    padding-top: 3.25rem;
+  }
 }
 
 .title,
@@ -84,6 +89,10 @@ footer {
 .blur {
   -webkit-filter: blur(2px);
   filter: blur(2px);
+}
+
+.modal-content {
+  max-width: 90%;
 }
 
 // cards
