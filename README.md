@@ -6,9 +6,19 @@
 ## Setup
 Npm is required.
 ### Installation
-`npm install`
+```
+npm install
+```
 ### Build
-`npm run all`
+```
+npm run all
+```
+### Update all npm packages
+```
+npm install -g npm-check-updates
+ncu -u
+npm install
+```
 ## Dependencies
 ### Npm packages
 * [Balloon.css](https://github.com/kazzkiq/balloon.css)

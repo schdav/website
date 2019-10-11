@@ -129,7 +129,7 @@ input.valid:hover {
 @import '../node_modules/balloon-css/balloon.min';
 
 // custom balloons
-[aria-label] {
+[aria-label][data-balloon-pos] {
   &::after {
     background: $turquoise;
     color: $white-ter;
