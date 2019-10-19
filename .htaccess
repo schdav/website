@@ -1,6 +1,1 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !on [OR]
-RewriteCond %{HTTP_HOST} !^www\.schdav\.de$ [NC]
-RewriteRule ^(.*)$ https://www.schdav.de/$1 [R=301,L]
-
 ErrorDocument 404 /404.php
