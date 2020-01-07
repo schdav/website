@@ -142,7 +142,7 @@ input.valid:hover {
 
   &[data-balloon-pos='down'] {
     &::after {
-      margin-top: 22px;
+      margin-top: 16px;
     }
 
     &::before {
@@ -151,7 +151,7 @@ input.valid:hover {
       border-left: 6px solid transparent;
       border-right: 6px solid transparent;
       height: 0;
-      margin-top: 11px;
+      margin-top: 5px;
       width: 0;
     }
   }
