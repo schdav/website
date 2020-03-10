@@ -9,10 +9,10 @@
         </script>
         Jahre alt und arbeite zurzeit bei <a class="underline" href="https://www.paessler.com/">Paessler AG</a> in
         Nürnberg.<br />
-        Als Software Engineer entwickle ich in agilen Prozessen Webseiten und Webanwendungen.
+        Als Lead Developer entwickle ich in agilen Prozessen Webseiten und Webanwendungen.
       </p>
       <p>Kenntnisse:<br />
-        Webentwicklung, C#, Python, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum und mehr
+        Webentwicklung, C#, Python, Cloud, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum und mehr
       </p>
       <p>Interessen:<br />
         Agile Entwicklung, Clean Code, App-Entwicklung, Online Marketing, Webdesign, UX

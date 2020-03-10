@@ -11,12 +11,12 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00adb5">
   <link rel="stylesheet" href="/min/default.min.css">
   <meta charset="utf-8">
-  <meta name="description" content="Private Webseite von David Schneider &middot; Software Engineer in agilen Prozessen &middot; Entwicklung von Webseiten, Webandwendungen und mehr">
+  <meta name="description" content="Private Webseite von David Schneider &middot; Lead Developer in agilen Prozessen &middot; Entwicklung von Webseiten, Webandwendungen und mehr">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-  <title>David Schneider &middot; Software Engineer | SCHDAV</title>
+  <title>David Schneider &middot; Lead Developer | SCHDAV</title>
 </head>
 
 <body>
