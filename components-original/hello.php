@@ -12,7 +12,7 @@
         Als Lead Developer entwickle ich in agilen Prozessen Webseiten und Webanwendungen.
       </p>
       <p>Kenntnisse:<br />
-        Webentwicklung, C#, Python, Cloud, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum und mehr
+        Webentwicklung, C#, Python, Cloud, SQL, TDD, Git, TFS, CI/CD, Unix, ITSM, Scrum und mehr
       </p>
       <p>Interessen:<br />
         Agile Entwicklung, Clean Code, Webdesign, UX
