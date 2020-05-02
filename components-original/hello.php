@@ -15,7 +15,7 @@
         Webentwicklung, C#, Python, Cloud, SQL, TDD, Git, CI/CD, Unix, ITSM, Scrum und mehr
       </p>
       <p>Interessen:<br />
-        Agile Entwicklung, Clean Code, App-Entwicklung, Online Marketing, Webdesign, UX
+        Agile Entwicklung, Clean Code, Webdesign, UX
       </p>
     </div>
     <div class="buttons is-centered">
