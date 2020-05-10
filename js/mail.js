@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
   var $prefix = 'info';
   var $suffix = 'schdav.de';
 

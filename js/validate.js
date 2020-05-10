@@ -1,3 +1,3 @@
 $.validate({
-  scrollToTopOnError: false
+  scrollToTopOnError: false,
 });

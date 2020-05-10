@@ -1,7 +1,7 @@
-$(function() {
+$(function () {
   var $request;
 
-  $('#contact-form').submit(function(event) {
+  $('#contact-form').submit(function (event) {
     event.preventDefault();
 
     if ($request) {
@@ -17,10 +17,10 @@ $(function() {
     $request = $.ajax({
       url: '../php/contact-form.php',
       type: 'post',
-      data: $serializedData
+      data: $serializedData,
     });
 
-    $request.done(function(response) {
+    $request.done(function (response) {
       if (response === 'success') {
         $('#notification-icon').html(
           '<i class="im im-check-mark-circle-o"></i>'
@@ -37,7 +37,7 @@ $(function() {
       $('#blur-content').addClass('blur');
     });
 
-    $request.fail(function() {
+    $request.fail(function () {
       $('#notification-icon').html('<i class="im im-x-mark-circle-o"></i>');
       $('#notification-text').html(
         'Versenden der Nachricht ist fehlgeschlagen.'
@@ -46,7 +46,7 @@ $(function() {
       $('#blur-content').addClass('blur');
     });
 
-    $request.always(function() {
+    $request.always(function () {
       $inputs.prop('disabled', false);
     });
   });
