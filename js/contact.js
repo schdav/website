@@ -22,13 +22,11 @@ $(function () {
 
     $request.done(function (response) {
       if (response === 'success') {
-        $('#notification-icon').html(
-          '<i class="im im-check-mark-circle-o"></i>'
-        );
+        $('#notification-icon').html('<i class="las la-check-circle"></i>');
         $('#notification-text').html('Nachricht wurde erfolgreich versendet.');
         $('#contact-form')[0].reset();
       } else {
-        $('#notification-icon').html('<i class="im im-x-mark-circle-o"></i>');
+        $('#notification-icon').html('<i class="las la-times-circle"></i>');
         $('#notification-text').html(
           'Versenden der Nachricht ist fehlgeschlagen.'
         );
@@ -38,7 +36,7 @@ $(function () {
     });
 
     $request.fail(function () {
-      $('#notification-icon').html('<i class="im im-x-mark-circle-o"></i>');
+      $('#notification-icon').html('<i class="las la-times-circle"></i>');
       $('#notification-text').html(
         'Versenden der Nachricht ist fehlgeschlagen.'
       );

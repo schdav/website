@@ -8,7 +8,7 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
@@ -27,7 +27,7 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
@@ -36,7 +36,7 @@
             </header>
             <div class="card-content py-6 px-5">
               <div class="content has-text-centered">
-                ITIL&reg; V3 Foundation
+                ITIL<sup>&reg;</sup> V3 Foundation
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
@@ -55,7 +55,7 @@
             </header>
             <div class="card-content py-6 px-5">
               <div class="content has-text-centered">
-                Certified ScrumMaster&reg; (CSM)
+                Certified ScrumMaster<sup>&reg;</sup> (CSM)
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
@@ -86,7 +86,7 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
