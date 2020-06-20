@@ -15,7 +15,7 @@
                 2013
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 Bachelor of Science (B.Sc.)
               </div>
@@ -34,7 +34,7 @@
                 2013
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 ITIL<sup>&reg;</sup> V3 Foundation
               </div>
@@ -53,7 +53,7 @@
                 2016
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 Certified ScrumMaster<sup>&reg;</sup> (CSM)
               </div>
@@ -74,7 +74,7 @@
                 2018
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 Google Zukunftswerkstatt
               </div>
@@ -93,7 +93,7 @@
                 2019
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 iSAQB CPSA-F
               </div>
