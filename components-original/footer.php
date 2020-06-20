@@ -20,8 +20,7 @@
         <script>
           document.write(" " + moment().year() + " ");
         </script>
-        David Schneider &middot;
-        Font: <a href="https://firstsiteguide.com/">Blogger&nbsp;Sans</a>
+        David Schneider
       </div>
       <div class="column">
         <a href="https://bulma.io">
