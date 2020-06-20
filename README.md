@@ -21,11 +21,9 @@ npm install
 ```
 ## Dependencies
 ### Npm packages
-* [Balloon.css](https://github.com/kazzkiq/balloon.css)
 * [Bulma](https://github.com/jgthms/bulma/)
 * [clean-css](https://github.com/jakubpawlowicz/clean-css-cli)
 * [ESLint](https://github.com/eslint/eslint)
-* [Hover.css](https://github.com/IanLunn/Hover/)
 * [HTMLMinifier](https://github.com/kangax/html-minifier)
 * [mkdirp](https://github.com/substack/node-mkdirp)
 * [node-sass](https://github.com/sass/node-sass)
@@ -36,8 +34,6 @@ npm install
 * [SVGO](https://github.com/svg/svgo)
 * [UglifyJS](https://github.com/mishoo/UglifyJS2)
 ### Others
-* [Blogger Sans](https://firstsiteguide.com/)
-* [iconmonstr](https://iconmonstr.com/)
-* [jQuery Form Validator](http://www.formvalidator.net/)
 * [jQuery](https://jquery.com/)
+* [Line Awesome](https://github.com/icons8/line-awesome)
 * [moment.js](https://momentjs.com/)
