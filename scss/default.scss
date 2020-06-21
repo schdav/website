@@ -1,9 +1,9 @@
 @import '../node_modules/normalize.css/normalize';
 @import '../node_modules/bulma/sass/utilities/initial-variables';
 @import '../node_modules/bulma/sass/utilities/functions';
-@import './fonts';
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap');
 
-$family-sans-serif: 'Blogger Sans', sans-serif;
+$family-sans-serif: 'Dosis', sans-serif;
 
 $grey-dark: #393e46;
 $grey-darker: $grey-dark;
@@ -11,8 +11,12 @@ $turquoise: #00adb5;
 $white-ter: #eee;
 $custom-footer: #222831;
 
+$body-weight: $weight-medium;
+$card-content-padding: 3rem 1.5rem;
+$card-header-weight: $weight-medium;
 $footer-background-color: $custom-footer;
 $modal-content-width: 500px;
+$title-weight: $weight-medium;
 
 // reset card shadow
 $card-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
@@ -39,11 +43,6 @@ body {
   .container {
     padding-top: 3.25rem;
   }
-}
-
-.title,
-.card-header-title {
-  font-weight: 400;
 }
 
 a {
@@ -77,7 +76,14 @@ a {
 
 footer {
   .icon {
+    font-size: 1.5em;
     margin: 0 10px;
+    @include fade;
+
+    &:hover {
+      color: $turquoise;
+      @include fade;
+    }
   }
 }
 
@@ -117,38 +123,5 @@ footer {
 
   .underline {
     border-bottom: 2px solid $white;
-  }
-}
-
-// formvalidator fix
-input.valid:hover {
-  border-color: #468847;
-}
-
-@import '../node_modules/hover.css/scss/hover';
-@import '../node_modules/balloon-css/balloon.min';
-
-// custom balloons
-[aria-label][data-balloon-pos] {
-  &::after {
-    background: $turquoise;
-    color: $white-ter;
-    font-family: $family-sans-serif !important;
-  }
-
-  &[data-balloon-pos='down'] {
-    &::after {
-      margin-top: 16px;
-    }
-
-    &::before {
-      background: none;
-      border-bottom: 6px solid $turquoise;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      height: 0;
-      margin-top: 5px;
-      width: 0;
-    }
   }
 }

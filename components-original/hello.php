@@ -5,10 +5,10 @@
       <p>
         Ich heiße David Schneider, bin
         <script>
-          document.write(" " + moment().diff(moment([1990, 2, 10]), "years") + " ");
+        document.write(" " + moment().diff(moment([1990, 2, 10]), "years") + " ");
         </script>
-        Jahre alt und arbeite zurzeit bei <a class="underline" href="https://www.paessler.com/">Paessler AG</a> in
-        Nürnberg.<br />
+        Jahre alt und arbeite zurzeit bei <a class="underline" href="https://www.paessler.com/">Paessler AG</a>
+        in Nürnberg.<br />
         Als Lead Developer entwickle ich in agilen Prozessen Webseiten und Webanwendungen.
       </p>
       <p>Kenntnisse:<br />

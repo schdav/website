@@ -2,26 +2,25 @@
   <div class="container">
     <div class="columns has-text-centered">
       <div class="column">
-        <a id="mail-address" class="icon hvr-float" href="#" aria-label="E-Mail" data-balloon-pos="down">
-          <i class="im im-paperplane"></i>
+        <a id="mail-address" class="icon" href="#">
+          <i class="las la-envelope"></i>
         </a>
-        <a class="icon hvr-float" href="https://github.com/schdav" aria-label="GitHub" data-balloon-pos="down">
-          <i class="im im-github"></i>
+        <a class="icon" href="https://github.com/schdav">
+          <i class="lab la-github"></i>
         </a>
-        <a class="icon hvr-float" href="https://play.google.com/store/apps/developer?id=SCHDAV%20Development" aria-label="Google Play" data-balloon-pos="down">
-          <i class="im im-google-play"></i>
+        <a class="icon" href="https://play.google.com/store/apps/developer?id=SCHDAV%20Development">
+          <i class="lab la-google-play"></i>
         </a>
-        <a class="icon hvr-float" href="https://xing.to/schdav" aria-label="XING" data-balloon-pos="down">
-          <i class="im im-xing"></i>
+        <a class="icon" href="https://xing.to/schdav">
+          <i class="lab la-xing"></i>
         </a>
       </div>
       <div class="column">
         &copy;
         <script>
-          document.write(" " + moment().year() + " ");
+        document.write(" " + moment().year() + " ");
         </script>
-        David Schneider &middot;
-        Font: <a href="https://firstsiteguide.com/">Blogger&nbsp;Sans</a>
+        David Schneider
       </div>
       <div class="column">
         <a href="https://bulma.io">

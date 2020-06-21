@@ -8,14 +8,14 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
                 2013
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 Bachelor of Science (B.Sc.)
               </div>
@@ -27,16 +27,16 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
                 2013
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
-                ITIL&reg; V3 Foundation
+                ITIL<sup>&reg;</sup> V3 Foundation
               </div>
             </div>
           </div>
@@ -46,16 +46,16 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
                 2016
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
-                Certified ScrumMaster&reg; (CSM)
+                Certified ScrumMaster<sup>&reg;</sup> (CSM)
               </div>
             </div>
           </div>
@@ -67,14 +67,14 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
                 2018
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 Google Zukunftswerkstatt
               </div>
@@ -86,14 +86,14 @@
             <header class="card-header">
               <span class="card-header-icon">
                 <span class="icon">
-                  <i class="im im-certificate-o"></i>
+                  <i class="las la-certificate"></i>
                 </span>
               </span>
               <p class="card-header-title">
                 2019
               </p>
             </header>
-            <div class="card-content py-6 px-5">
+            <div class="card-content">
               <div class="content has-text-centered">
                 iSAQB CPSA-F
               </div>
