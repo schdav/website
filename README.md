@@ -36,4 +36,4 @@ npm install
 ### Others
 * [jQuery](https://jquery.com/)
 * [Line Awesome](https://github.com/icons8/line-awesome)
-* [moment.js](https://momentjs.com/)
+* [moment.js](https://github.com/moment/moment/)
